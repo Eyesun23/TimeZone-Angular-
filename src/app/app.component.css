@@ -1,0 +1,34 @@
+h1 {
+  font-style: oblique;
+  padding: 20px;
+  margin-left: 180px;
+  display: block;
+}
+
+button {
+  margin-left: 280px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: white;
+  border: solid;
+
+}
+
+h2 {
+  font-style: normal;
+  padding: 20px;
+  margin-left: 150px;
+}
+
+.times{
+    display: inline-block;
+    padding: 40px;
+    margin: 20px;
+    border: solid;
+    font-size: 15px;
+    background-color: #ebebeb;
+}
+
+.highlight {
+    background-color: yellow;
+}

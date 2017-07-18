@@ -1,0 +1,12 @@
+<h1>
+  {{title}}
+</h1>
+
+<button class="times" (click)="InTheZone('PST')" [ngClass]="{highlight: TimeZoneSelected === 'PST'}">PST</button>
+<button class="times" (click)="InTheZone('MST')" [ngClass]="{highlight: TimeZoneSelected === 'MST'}">MST</button>
+<button class="times" (click)="InTheZone('CST')" [ngClass]="{highlight: TimeZoneSelectedd === 'CST'}">CST</button>
+<button class="times" (click)="InTheZone('EST')" [ngClass]="{highlight: TimeZoneSelected === 'EST'}">EST</button>
+<br>
+<button (click)="InTheZone('')" type="button" name="button">CLEAR</button>
+
+<h2>{{time | date:'medium'}}</h2>
